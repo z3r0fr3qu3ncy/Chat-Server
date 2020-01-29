@@ -37,7 +37,7 @@ Compile the source code by navigating to the src directory and typing: javac ie/
 The ChatServer instance itself can be started using default params (port 63519) by typing: java ie.gmit.dip.ChatServer  
 from the project src directory, or by specifying a port with the syntax below.
 
-ChatServer - <Port Number> - just specify only port number
+ChatClient #Port Number# - just specify port number without enclosing hashtags.
   
 Direct Message:
   
@@ -50,7 +50,7 @@ kline@username
 ChatClient Syntax:
 The ChatClient can be run in default mode by typing: java ie.gmit.dip.ChatClient , or by using the below syntax:
 
-ChatServer <Port Number>
+ChatServer #Port Number#
   
 ChatServer <INetAddress, PortNumber> - note INetAddress is string format such as e.g. “localhost”.
 
