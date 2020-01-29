@@ -38,17 +38,27 @@ The ChatServer instance itself can be started using default params (port 63519) 
 from the project src directory, or by specifying a port with the syntax below.
 
 ChatServer <PortNumber>
+  
 Direct Message:
+  
 String of words to message@username
+
 Kick User:
+
 kline@username
 
 ChatClient Syntax:
 The ChatClient can be run in default mode by typing: java ie.gmit.dip.ChatClient , or by using the below syntax:
+
 ChatServer <PortNumber>
+  
 ChatServer <INetAddress, PortNumber> - note INetAddress is string format such as e.g. “localhost”.
+
 Chat Client Direct Message:
 To send a chat client direct message please follow the syntax below:
+
 stringofwords with or without spaces@username 
+
 To message the admin use:
+
 Stringof words@admin
