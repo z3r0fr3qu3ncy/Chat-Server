@@ -11,6 +11,7 @@ separate and what you want to share while trying to keep things simple and resou
 threads, was an excellent exercise to get the mind around that type of stuff. 
 
 Design
+
 Ultimately this chat application is made up of several classes, some of them representing Threads. The Server Class initializes 
 by starting up with some state – notably we use Sets to enforce uniqueness in our HashSet of ClientHandler class instances. The 
 server starts a write thread (for console in) and then enters the connection listen loop for new connections on the chosen port.
@@ -33,7 +34,9 @@ Instructions
 
 ChatServer Syntax:
 Compile the source code by navigating to the src directory and typing: javac ie/gmit/dip/*.java
-The ChatServer instance itself can be started using default params (port 63519) by typing: java ie.gmit.dip.ChatServer  from the project src directory, or by specifying a port with the syntax below.
+The ChatServer instance itself can be started using default params (port 63519) by typing: java ie.gmit.dip.ChatServer  
+from the project src directory, or by specifying a port with the syntax below.
+
 ChatServer <PortNumber>
 Direct Message:
 String of words to message@username
