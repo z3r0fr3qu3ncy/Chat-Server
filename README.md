@@ -37,7 +37,7 @@ Compile the source code by navigating to the src directory and typing: javac ie/
 The ChatServer instance itself can be started using default params (port 63519) by typing: java ie.gmit.dip.ChatServer  
 from the project src directory, or by specifying a port with the syntax below.
 
-ChatServer <Port Number>
+ChatServer - <Port Number>
   
 Direct Message:
   
