@@ -62,3 +62,8 @@ stringofwords with or without spaces@username
 To message the admin use:
 
 Stringof words@admin
+
+Screenshot
+
+![image](https://user-images.githubusercontent.com/60437881/73388185-b160eb00-42c9-11ea-9be0-ed0633713bdf.png)
+
